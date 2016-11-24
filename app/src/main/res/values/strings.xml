@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">CiComp</string>
+    <string name="action_about">¿Qué es CiComp?</string>
+    <string name="action_map">¿Cómo llegar?</string>
+    <string name="action_pricing">¿Cuánto cuesta?</string>
+
+    <string name="refresh">Actualizar</string>
+
+    <string name="title_activity_details">DetailsActivity</string>
+
+    <string name="about">
+        El Congreso Internacional de Computólogos es un evento anual en el que
+        se reunen expertos en nuevas tecnologías para exponer su conocimiento
+        al público en general.
+    </string>
+    <string name="pricing">
+        Los talleres cuestan $500 M.N.
+        Las conferencias cuestan $800 M.N.
+    </string>
+    <string name="title_activity_map">CiComp</string>
+
+    <string name="info_email">pedro.martin@uabc.edu.mx</string>
+</resources>
