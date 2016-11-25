@@ -25,7 +25,9 @@ public class ListAdapter extends ArrayAdapter<ListItem> {
     public View getView(int position, View convertView, ViewGroup parent) {
         LayoutInflater inflater = LayoutInflater.from(getContext());
         ListItem item = getItem(position);
-        View root = inflater.inflate(R.layout.layout_list_item, parent, false);
+        View root = (convertView == null) ?
+                inflater.inflate(R.layout.layout_list_item, parent, false) :
+                convertView;
 
         if (item != null) {
             TextView listItemName = (TextView) root.findViewById(R.id.listItemName);

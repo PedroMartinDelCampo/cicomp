@@ -18,30 +18,54 @@
         android:text="TextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/detailName" />
+        android:id="@+id/detailName"
+        android:textStyle="normal|bold"
+        android:textSize="36sp"
+        android:layout_marginBottom="20dp" />
 
     <TextView
         android:text="TextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/detailDescription" />
+        android:id="@+id/detailDescription"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:text="Instructor: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:textStyle="normal|bold"
+            android:textSize="14sp" />
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/detailInstructor"
+            android:textSize="14sp" />
+
+    </LinearLayout>
 
     <TextView
         android:text="TextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/detailInstructor" />
+        android:id="@+id/detailOrganization"
+        android:textSize="14sp"
+        android:layout_marginBottom="10dp" />
 
     <TextView
         android:text="TextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/detailOrganization" />
-
-    <TextView
-        android:text="TextView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/detailDate" />
+        android:id="@+id/detailDate"
+        android:textStyle="normal|bold" />
 
 </LinearLayout>

@@ -16,8 +16,8 @@ import java.net.URL;
 
 public class GetRequest extends AsyncTask<String, Integer, String> {
 
-    // public static String BASE_URL = "http://cicomp.herokuapp.com/api/";
-    public static String BASE_URL = "http://10.0.2.2:8000/api/";
+    public static String BASE_URL = "http://cicomp.herokuapp.com/api/";
+    // public static String BASE_URL = "http://10.0.2.2:8000/api/";
 
     private String url;
     private Listener listener;
